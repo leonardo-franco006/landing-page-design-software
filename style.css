@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+*{margin:0; padding:0;}
+
+html, body{height:100%;}
+
+body{margin:0px; padding:0px; background-color:#FFFFFF; font-family:'Open Sans', sans-serif; font-weight:normal; font-size:18px; overflow-x:hidden; overflow-y:scroll; line-height:30px;}
+
+	a{text-decoration:none; color:#F3F3F3; opacity:1;}
+
+	b{font-weight:700;}
+
+	img{border:0; float:left; position:relative;}
+
+
+	div, article, section{float:left; position:relative; margin:0;}
+/* FIM DEFAULT */
+
+
+/* HTML5 PADRÕES */
+h1{font-size:30px; font-weight:700; color:#414141;}
+
+p{color:#414141;}
+
+#shadow{display:none;}
+.menuopen{display:none;}
+#menu_mobile{display:none;}
+/* HTML5 */
+
+/* TOPO */
+header#topo{position:relative; float:left; width:100%; height:100px; z-index:9; transition:.3s;}
+#topob{float:none; width:76%; max-width:1440px; height:100%; margin:0 auto;}
+.topo{background:#282A36;}
+		
+	.logo{
+        width: 350px; 
+        height:60px; 
+        background-image:url("img/ChatGPT\ Image\ 23\ de\ mar.\ de\ 2026\,\ 19_50_50.png"); 
+        background-repeat:no-repeat; background-position:center left; 
+        margin-top:30px; 
+        background-size:cover;}
+    
+        #menu{width:auto; float:right; height:64px; margin-top:30px;}		
+
+		.itemmenu.dropdown{width:200px; padding:10px 0 12px 0;}
+		
+		.itemmenu{float:right; padding:10px 20px 12px 20px; cursor:pointer; margin-left:3px; font-size:17px; text-transform:uppercase; font-weight: 400; transition:0.2s; text-align:center;}
+
+		.itemmenu:hover{background:#FF79C6; color:#282A36; font-weight:700;}
+
+		.itemmenu p{color:#FFF; font-weight:400;}
+
+		.itemmenu:hover p{color: #282A36; font-weight:700;}
+
+		#itemmenu{font-weight:700; color: #282A36; background:#FF79C6;}
+        #itemmenu a p{font-weight:700; color:#282A36; background:#FF79C6;}
+
+/* BANNER */
+/* #banner_principal{position:absolute; width:100%; height:952px; top:0; z-index:1; margin:0; padding:0;}*/
+/*#banner_principalb{position:relative; float:none; width:80%; max-width:1440px; height:100%; margin:0 auto;}*/
+
+#banner_principal{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("img/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+    background-size: cover;
+}
+
+.textosobreposto{
+    color: #FFF;
+    font-size: 40px;
+    line-height: 65px;
+    font-weight: 500;
+    position: absolute;
+    top: 50px;
+    left: 16px;
+
+    
+}
+
+.textosobreposto p{ font-family: 20px; color: #FFF;}
+.textosobreposto p b{color:#50FA7B;}
+
+
+/* LOGISTICA */
+.logisticahome{margin-top:100px;margin-bottom: 80px; align-content: center; width: auto; height: 120px;}
+
+	.logisticahome h1{text-align:center; text-transform:uppercase;}
+	
+
+/* LOCAIS */
+
+#locais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#textolateral{
+    align-content: center;
+    font-size: 20px;
+    margin-left: 20px;
+    flex: 1;
+}
+
+#mapa{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px;
+}
+
+#mapa img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+
+}
+
+#textolateral h1{
+    color: yellow;
+}
+
+
+/* SOBRE NOS -------------------------------------------------------- */
+
+#bannerhistoria {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap; 
+}
+
+#blococonteudoempresa {
+    flex: 1 1 500px; 
+}
+#blococonteudoempresa h1 {
+    color: #8BE9FD;
+}
+
+
+#equipe {
+    flex: 1 1 400px; 
+    display: flex;
+    justify-content: center;
+}
+
+#equipe img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: cover;
+}
+
+.compromissos{
+    text-align: center;
+    padding: 80px 0;
+    background-color: rgb(15, 15, 15); 
+
+    margin-bottom: 120px;
+    max-width: 100%;
+    width: 100%;
+    background-image: url("img/4k-programming-background-syxg8aq99n3o5vb1.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+#titulo-compromissos {
+    width: 100%;
+    padding: 40px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-compromissos h1 {
+    margin: 0;
+    text-align: center;
+    color: #50FA7B;
+}
+
+.blococardscompromisso{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.missioncard{
+    color: #FFF;
+    flex-basis: 30%;
+    padding: 30px;
+    border: 1px solid #333;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    flex: 1;
+    min-width: 250px; 
+}
+.missioncard h3{
+    color: #FF79C6;
+}
+.missioncard:hover {
+    background-color: #282A36;
+    border-color: #FF79C6;
+}
+
+/* FOOTER -------------------------------------------------------- */
+footer{float:left; position:relative; width:100%; height:240px; background:#282A36;}
+#footerb{float:none; width:76%; max-width:1440px; height:100%; margin:0 auto;}
+
+	#logocreditos{width:50%;}
+
+		footer .logo{width:300px; height:53px; background-size:contain; margin-top:60px; background-size: cover;}
+
+		#creditos{width:100%; color:#FFF; font-size:11px; line-height:17px; margin-top:30px;}
+
+	#footcontato{float:right; margin-top:70px;}
+
+		#matrizsocial{width:140px; height:100px; margin-top:20px;}
+
+			#matrizsocial h1{text-transform:uppercase; font-size:25px; color:#FFF;}
+
+			.social{width:24px; height:24px; background-image:url("img/icones/face.png"); background-repeat:no-repeat; background-position:center; margin:10px 10px 0 0; background-size:20px;}
+
+		#footinfocontato{width:320px; font-size:14px; line-height:24px; color:#FFF;}
