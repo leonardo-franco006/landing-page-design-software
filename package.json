@@ -1,0 +1,12 @@
+{
+  "name": "landing-page-design-software",
+  "version": "1.0.0",
+  "description": "Landing page design software",
+  "main": "index.html",
+  "scripts": {
+    "dev": "open index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
